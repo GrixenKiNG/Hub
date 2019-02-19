@@ -1,0 +1,86 @@
+/* === Remove input autofocus webkit === */
+*:focus {outline: none;}
+
+/* === Шрифты для формы и общая ширина === */
+
+body {font: 14px/21px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;}
+.contact_form h2, 
+.contact_form label {font-family:Georgia, Times, "Times New Roman", serif;}
+.form_hint,
+ .required_notification {font-size: 11px;}
+
+.contact_form {
+		width:700px;
+	}
+
+
+/* === Ширина формы === */
+.contact_form p {
+    	width:700px;
+	margin:7px 10px 7px 10px;
+
+	padding:0px;
+}
+
+/* === Размер и расположение блоков === */
+
+.contact_form label {
+	width:150px;
+	margin-top: 3px;
+	display:inline-block;
+	float:left;
+	padding:3px;
+}
+
+.contact_form input {
+	height:30px; 
+	width:250px; 
+	padding:5px 8px;
+}
+.contact_form textarea {padding:8px; width:300px;}
+
+.contact_form button {margin-left:156px;}
+
+	/* Цвета и эффекты */
+	
+
+
+
+
+button.submit {
+	background-color: orange;
+	
+	
+border: 1px solid white;
+		
+border-radius: 3px;
+	
+
+
+
+box-shadow: 	
+color: white;
+	
+font-weight: bold;
+	
+padding: 6px 20px;
+	
+text-align: center;
+	
+
+}
+
+
+
+
+button.submit:hover {
+	
+opacity:.85;
+	
+cursor: pointer; 
+}
+
+
+
+
+

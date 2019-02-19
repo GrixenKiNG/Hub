@@ -1,0 +1,202 @@
+.butterfly:hover{
+  transform: scale(1.15, 1.15);
+}
+ .butterfly{
+  display:block;
+}
+ .contact
+ {
+  position: absolute;
+  top: 360;
+
+  left: 60%;
+
+  border: 0px solid red;
+ }
+
+ .pod{
+   	background-color: blue;
+   	font-size: 25;
+   	text-align:center;
+   }
+   
+   .buttonup{
+   position: fixed;
+   opacity: .3;
+   text-align: center;
+   left: 50;
+
+   top: 65%;
+   
+   }
+
+    .a123{
+
+    position: absolute;
+    top:90;
+    left: 80;
+  
+   
+   }
+   .clock{
+
+    position: absolute;
+
+   text-align: right;
+   
+   }
+
+body
+{
+background: url("chemk/134.jpg") ;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+   .shapka
+{
+background: url("chemk/s.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-position: center;
+
+}
+//a {
+
+    line-height: 1;
+    display: inline-block;
+    color:purple;
+    text-decoration:none;
+    cursor: pointer;
+}
+
+.li1 a:after {
+ display: block;
+ content: "";
+ height: 2px;
+ width: 0%;
+ background-color: yellow;
+ transition: width .3s ease-in-out;
+}
+.li1 a:hover:after,
+a:focus:after {
+width: 100%;
+}
+.table
+{
+background-color: white;
+}
+.a
+{
+color:white;
+}
+
+
+ .hov  tbody tr:hover {
+ transition: 0.5s;
+    background: #808080;
+    color: white; 
+    cursor: pointer;
+   }
+ .hov  tbody tr {
+ transition: 0.5s;
+   }
+   .li1{
+    display: inline-block;
+
+    padding: 12px;
+    width:17%;
+    transition: 0.5s;
+    color:#ffffff;
+
+   }
+     .li1:hover {
+    display: inline-block;
+    position: relative;
+    padding: 12px;
+    background-color: blue;
+    transition: 0.5s;
+    color:white;
+   }
+   .li2{
+    text-align: center;
+    padding: 15;
+    align-items: center;
+  display: inline;
+    width: 90%;
+
+
+}
+
+.li2 img {
+ -moz-transition: all 0.7s ease-out;
+ -o-transition: all 0.7s ease-out;
+ -webkit-transition: all 0.7s ease-out;
+ }
+
+.li2 img:hover{
+ -webkit-transform: scale(1.3);
+ -moz-transform: scale(1.3);
+ -o-transform: scale(1.3);
+ }
+
+.raboty{
+    text-align: center;
+     display: inline-block;
+     align-items: center;
+     width: 100%;
+}
+   .bg{
+    height:60;
+    background-color: red;
+    color:white;
+    font-size: 25;
+    text-align:center;
+   }
+   a{
+     text-decoration:none;
+   }
+
+
+
+img[tabindex="1"]{  
+ cursor: zoom-in;  
+}  
+
+img[tabindex="1"]:focus {  
+width:75%;
+
+cursor:zoom-out;
+}  
+img[tabindex="1"]:focus, 
+img[tabindex="1"]:focus ~ * {  
+  cursor: zoom-out;  
+ pointer-events: none;  
+ 
+}
+
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
