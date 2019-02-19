@@ -1,0 +1,147 @@
+body {
+            background: #35170c;
+            color: #000000;
+            font-family: Trebuchet MS, Arial, Times New Roman;
+            font-size: 12px;
+
+}
+#qwe{ margin: 0 auto;
+width: 100%;
+ height: 100%;}
+	
+#conteyner {
+	
+margin:-22px auto;
+margin-left:10px;
+width: 90%;
+height: 100%;
+float: right;
+}
+
+#header {
+	width:100%;
+	height:auto;display: flex;
+}
+
+#menu {
+	
+position: fixed;
+margin:-22px auto;
+margin-left:-10px;
+color: #FFFFFF;
+font-size: 12px;
+background:#35170c;
+width: 10%;
+height: 104%;
+float: left;
+display: flex;
+}
+#menu1 {
+float: right;
+color: #FFFFFF;
+font-size: 12px;
+background:#35170c;
+width: 10%;
+height: 100%;
+
+}
+#content {
+background:#FFFFFF;
+width: 100%;
+height: 150%;
+margin-left:auto;
+}
+#content1 {
+float: left;
+background:#FFFFFF;
+width: 90%;
+height: 100%;
+
+}
+
+#footer {
+margin-left:auto;
+background:#7f4625;
+width: 100%;
+height: 5%;margin-top:-15px;
+}
+#line {
+
+margin-left:auto;
+background:#7f4625;
+width: 100%;
+height: 2%;
+}
+.photobg {/*Шапка*/
+max-width:100%;
+height:auto;
+}
+.right {/*Выравнивание контейнера*/
+margin-left: auto;
+}
+
+.prmu{
+height: 70px;
+font-size:20px;
+color: #FFFFFF;
+margin-left:auto;
+margin-right:auto;
+text-align: center;	
+background:#7f4625;
+}
+.prmun{/*Правое меню в вкладки работы */
+height: 70px;
+font-size:20px;
+color: #FFFFFF;
+margin-left:auto;
+margin-right:auto;
+text-align: center;
+}
+
+.prmun:hover{
+background:#7f4625;}
+
+.r{/*Левая меню подсветка*/
+background:#7f4625;
+height:90px;
+font-size:22px;
+color: #FFFFFF;
+margin-left:auto;
+margin-right:auto;
+text-align: center;
+}
+.q{/*Левая меню */
+height:90px;
+font-size:22px;
+color: #FFFFFF;
+margin-left:auto;
+margin-right:auto;
+text-align: center;
+}
+.q:hover{
+background:#7f4625;}
+.w{/*Интервал в левом меню*/
+height:300px;
+color: #FFFFFF;
+margin-left:auto;
+margin-right:auto;
+text-align: center;
+}
+
+.image{
+float:left;
+margin-left:8%;
+margin-top:60px;}
+.image:hover{
+transform: scale(1.9, 1.9)}
+
+.im{
+float:left;
+margin-left:17%;
+margin-top:15px;}
+.im:hover{
+transform: scale(1.9, 1.9)}
+
+.t{
+margin-left:auto;
+margin-right:auto;}
